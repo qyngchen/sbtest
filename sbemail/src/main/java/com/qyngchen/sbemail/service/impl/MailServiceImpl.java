@@ -19,14 +19,20 @@ public class MailServiceImpl implements MailService {
     @Value("${recipient.username}")
     private String recipient;
 
+    /**
+     * 简单文本
+     */
     @Override
     public void sendEmail() {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setFrom(sender);
         mailMessage.setTo(recipient);
         mailMessage.setSubject("测试邮件发送");
-        mailMessage.setText("来自163邮箱的测试邮件");
-
+        mailMessage.setText("  来自163邮箱的测试邮件");
         mailSender.send(mailMessage);
+    }
+
+    public void setMailSender(){
+
     }
 }
