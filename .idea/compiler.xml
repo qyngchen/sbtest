@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sbemail" />
+        <module name="sbmp" />
+        <module name="sbwsclient001" />
+        <module name="sbwsclient002" />
+        <module name="sbwsserver" />
+        <module name="springqueue" />
+        <module name="task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sbemail" target="1.8" />
+      <module name="sbmp" target="1.8" />
+      <module name="sbwebsocketclient" target="1.8" />
+      <module name="sbwsclient" target="1.5" />
+      <module name="sbwsclient001" target="1.8" />
+      <module name="sbwsclient002" target="1.8" />
+      <module name="sbwsserver" target="1.8" />
+      <module name="springqueue" target="1.8" />
+      <module name="task" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
