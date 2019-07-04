@@ -16,6 +16,8 @@ public class SendMailController {
     @GetMapping("/send")
     public void send() {
 
-        mailService.sendEmail();
+        //mailService.sendEmail();
+
+        mailService.sendEmailTemplates();
     }
 }

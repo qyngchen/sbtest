@@ -5,13 +5,29 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
+
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 @Component
 public class MailServiceImpl implements MailService {
 
     @Autowired
     private JavaMailSender mailSender;
+
+    /**
+     * 模板引擎
+     */
+    @Autowired
+    private TemplateEngine templateEngine;
 
     @Value("${spring.mail.username}")
     private String sender;
@@ -20,7 +36,7 @@ public class MailServiceImpl implements MailService {
     private String recipient;
 
     /**
-     * 简单文本
+     * 发送邮件测试
      */
     @Override
     public void sendEmail() {
@@ -32,7 +48,28 @@ public class MailServiceImpl implements MailService {
         mailSender.send(mailMessage);
     }
 
-    public void setMailSender(){
+    @Override
+    public void sendEmailTemplates() {
+        try {
+            MimeMessage mimeMessage = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+            helper.setFrom(sender);
+            helper.setTo(sender);
 
+            Context context = new Context();
+            Map<String, Object> map = new HashMap<>();
+            map.put("name", "chenqingyang");
+            map.put("date", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+            map.put("visitor", "陈庆洋");
+            context.setVariables(map);
+            //context.setVariable("user", "chenqingyang");
+            String mailTemplate = templateEngine.process("mailTemplate", context);
+
+            helper.setSubject("测试邮件发送");
+            helper.setText(mailTemplate, true);
+            mailSender.send(mimeMessage);
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
     }
 }

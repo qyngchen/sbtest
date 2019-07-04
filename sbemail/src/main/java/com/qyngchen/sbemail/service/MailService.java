@@ -1,9 +1,19 @@
 package com.qyngchen.sbemail.service;
 
-import org.springframework.stereotype.Component;
-
-
+/**
+ * 邮件
+ *
+ * @author chenqingyang
+ */
 public interface MailService {
 
-    public void sendEmail();
+    /**
+     * 发送简单文本邮件
+     */
+    void sendEmail();
+
+    /**
+     * 发送模板邮件
+     */
+    void sendEmailTemplates();
 }
