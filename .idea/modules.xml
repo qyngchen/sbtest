@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sbeasyrule/sbeasyrule.iml" filepath="$PROJECT_DIR$/sbeasyrule/sbeasyrule.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbemail/sbemail.iml" filepath="$PROJECT_DIR$/sbemail/sbemail.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbmp/sbmp.iml" filepath="$PROJECT_DIR$/sbmp/sbmp.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbwsclient001/sbwsclient001.iml" filepath="$PROJECT_DIR$/sbwsclient001/sbwsclient001.iml" />

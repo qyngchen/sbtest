@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sbeasyrule" />
         <module name="sbemail" />
         <module name="sbmp" />
         <module name="sbwsclient001" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="sbeasyrule" target="1.8" />
       <module name="sbemail" target="1.8" />
       <module name="sbmp" target="1.8" />
       <module name="sbwebsocketclient" target="1.8" />
