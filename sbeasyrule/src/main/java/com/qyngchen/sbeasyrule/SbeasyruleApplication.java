@@ -1,13 +1,13 @@
 package com.qyngchen.sbeasyrule;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+import org.jeasy.rules.api.Facts;
+
 public class SbeasyruleApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SbeasyruleApplication.class, args);
-	}
+    public static void main(String[] args) {
+        Facts facts = new Facts();
+        facts.put("rain", true);
+    }
 
 }

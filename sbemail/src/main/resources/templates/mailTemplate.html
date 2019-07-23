@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html  xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8" />
-    <title>Insert title here</title>
+    <meta charset="UTF-8"/>
 </head>
 <body>
-<p>Dear:<span th:text="${name}"/><br /></p>
-于<span th:text="${date}"/>和<span th:text="${visitor}"/>
+Hi&nbsp;&nbsp;<span th:text="${visitorName}"/><br/>
+<br/>
+Your reservation has been confirmed by Host. You will have face recognition access during the appointment
+period. The appointment information is as follows.<br/>
+Date：<span th:text="${dayTime}"/><br/>
+Time：<span th:text="${hourTime}"/><br/>
+We look forward to your visit.<br/>
+Beyondsoft Wise Office<br/>
+<span th:text="${newDayTime}"/><br/>
+(System automatically forwarded email, no need to reply)
 </body>
 </html>

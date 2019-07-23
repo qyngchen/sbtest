@@ -58,9 +58,10 @@ public class MailServiceImpl implements MailService {
 
             Context context = new Context();
             Map<String, Object> map = new HashMap<>();
-            map.put("name", "chenqingyang");
-            map.put("date", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
-            map.put("visitor", "陈庆洋");
+            map.put("visitorName", "chenqingyang");
+            map.put("dayTime", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+            map.put("hourTime", new SimpleDateFormat("HH:mm:ss").format(new Date()));
+            map.put("newDayTime",new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
             context.setVariables(map);
             //context.setVariable("user", "chenqingyang");
             String mailTemplate = templateEngine.process("mailTemplate", context);

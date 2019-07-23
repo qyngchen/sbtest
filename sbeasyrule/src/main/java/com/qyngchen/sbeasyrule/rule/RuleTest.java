@@ -1,9 +1,7 @@
 package com.qyngchen.sbeasyrule.rule;
 
-import org.jeasy.rules.annotation.Action;
-import org.jeasy.rules.annotation.Condition;
-import org.jeasy.rules.annotation.Priority;
-import org.jeasy.rules.annotation.Rule;
+import org.jeasy.rules.annotation.*;
+import org.jeasy.rules.api.Facts;
 
 /**
  * 测试规则类
@@ -23,17 +21,16 @@ public class RuleTest {
      * 判断是否命中规则
      */
     @Condition
-    public Boolean isFlag() {
-
-        return true;
+    public Boolean isFlag(@Fact("rain") Boolean rain) {
+        return rain;
     }
 
     /**
      * 命中规则之后采取的操作
      */
     @Action
-    public void doSomething() {
-
+    public void doSomething(Facts facts) {
+        System.out.println(facts);
     }
 
     /**

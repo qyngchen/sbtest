@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sbeasyrule" />
         <module name="sbemail" />
+        <module name="sblistener" />
         <module name="sbmp" />
         <module name="sbwsclient001" />
         <module name="sbwsclient002" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="sbeasyrule" target="1.8" />
       <module name="sbemail" target="1.8" />
+      <module name="sblistener" target="1.8" />
       <module name="sbmp" target="1.8" />
       <module name="sbwebsocketclient" target="1.8" />
       <module name="sbwsclient" target="1.5" />

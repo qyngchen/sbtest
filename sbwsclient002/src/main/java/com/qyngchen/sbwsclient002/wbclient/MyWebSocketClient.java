@@ -23,7 +23,7 @@ public class MyWebSocketClient {
     @Bean
     public WebSocketClient webSocketClient() {
         try {
-            WebSocketClient webSocketClient = new WebSocketClient(new URI("ws://localhost:9090/client002/websocket"), new Draft_6455()) {
+            WebSocketClient webSocketClient = new WebSocketClient(new URI("ws://42.159.87.8:9090/passby/websocket"), new Draft_6455()) {
                 @Override
                 public void onOpen(ServerHandshake handshakedata) {
                     log.info("[websocket] 连接成功");
