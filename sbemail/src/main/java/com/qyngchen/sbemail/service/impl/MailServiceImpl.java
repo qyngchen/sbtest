@@ -54,14 +54,17 @@ public class MailServiceImpl implements MailService {
             MimeMessage mimeMessage = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
             helper.setFrom(sender);
-            helper.setTo(sender);
+            helper.setTo("qyngchen@163.com");
 
+            StringBuffer url = new StringBuffer();
+            url.append("http://www.baidu.com");
             Context context = new Context();
             Map<String, Object> map = new HashMap<>();
             map.put("visitorName", "chenqingyang");
             map.put("dayTime", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
             map.put("hourTime", new SimpleDateFormat("HH:mm:ss").format(new Date()));
             map.put("newDayTime",new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
+            map.put("url",url);
             context.setVariables(map);
             //context.setVariable("user", "chenqingyang");
             String mailTemplate = templateEngine.process("mailTemplate", context);

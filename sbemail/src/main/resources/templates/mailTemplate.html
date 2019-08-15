@@ -4,15 +4,20 @@
     <meta charset="UTF-8"/>
 </head>
 <body>
-Hi&nbsp;&nbsp;<span th:text="${visitorName}"/><br/>
+<span th:text="${visitorName}"/>，您好!<br/>
 <br/>
-Your reservation has been confirmed by Host. You will have face recognition access during the appointment
-period. The appointment information is as follows.<br/>
-Date：<span th:text="${dayTime}"/><br/>
-Time：<span th:text="${hourTime}"/><br/>
-We look forward to your visit.<br/>
-Beyondsoft Wise Office<br/>
+您的预约单已经生成。您将在预约时间段具备人脸识别通行权限，预约信息如下：<br/>
+日期：<span th:text="${dayTime}"/><br/>
+时间：<span th:text="${hourTime}"/><br/>
+<br/>
+详情请访问以下链接：<br/>
+<span th:text="${url}"/><br/>
+<br>
+我们热切期待您的到访！<br/>
+<br/>
+博彦科技智慧办公室<br/>
 <span th:text="${newDayTime}"/><br/>
-(System automatically forwarded email, no need to reply)
+<br/>
+（系统自动转发邮件，无需回复）
 </body>
 </html>
