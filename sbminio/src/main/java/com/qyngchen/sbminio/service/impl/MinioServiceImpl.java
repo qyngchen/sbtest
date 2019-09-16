@@ -28,7 +28,7 @@ public class MinioServiceImpl implements MinioService {
                 minioClient.makeBucket(bucketName);
             }
             System.out.println(file.getName());
-            minioClient.putObject(bucketName, file.getName(), fileInputStream, null);
+            minioClient.putObject(bucketName, "1d1140f4-e915-4005-9349-992ce172052b", fileInputStream, null);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -38,7 +38,9 @@ public class MinioServiceImpl implements MinioService {
     @Override
     public InputStream downloadFiel() {
         try {
-            InputStream inputStream = minioClient.getObject(bucketName, "1d1140f4-e915-4005-9349-992ce172052b");
+            String objectUrl = minioClient.getObjectUrl(bucketName, "39f00e18-e203-449b-97c4-e95f7c7b083d");
+            System.out.println("objectUrl---------------" + objectUrl);
+            InputStream inputStream = minioClient.getObject(bucketName, "39f00e18-e203-449b-97c4-e95f7c7b083d");
             return inputStream;
         } catch (Exception e) {
             e.printStackTrace();

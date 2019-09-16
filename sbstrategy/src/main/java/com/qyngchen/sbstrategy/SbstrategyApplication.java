@@ -1,15 +1,13 @@
-package com.qyngchen.sblistener;
+package com.qyngchen.sbstrategy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.Map;
-
 @SpringBootApplication
-public class SblistenerApplication {
+public class SbstrategyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SblistenerApplication.class, args);
+		SpringApplication.run(SbstrategyApplication.class, args);
 	}
 
 }

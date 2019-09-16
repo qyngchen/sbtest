@@ -3,6 +3,10 @@ package com.qyngchen.task.schedule;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import java.io.File;
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 @Component
 public class SchedileTest {
 
@@ -37,4 +41,14 @@ public class SchedileTest {
         Thread.sleep(1000);
         isStop = true;
     }
+
+    public static void main(String[] args) {
+        File file=new File("C:/myspace/workspace/wiseservice/pic");
+
+        String[] list = file.list();
+        Stream<String> stream = Arrays.stream(list).filter((s -> s.contains("eaa1644c-0317-428d-932c-e220af9e160e")));
+        System.out.println(stream.toString());
+    }
+
+
 }

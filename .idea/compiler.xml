@@ -11,6 +11,7 @@
         <module name="sblistener" />
         <module name="sbminio" />
         <module name="sbmp" />
+        <module name="sbstrategy" />
         <module name="sbwsclient001" />
         <module name="sbwsclient002" />
         <module name="sbwsserver" />
@@ -24,6 +25,7 @@
       <module name="sblistener" target="1.8" />
       <module name="sbminio" target="1.8" />
       <module name="sbmp" target="1.8" />
+      <module name="sbstrategy" target="1.8" />
       <module name="sbwebsocketclient" target="1.8" />
       <module name="sbwsclient" target="1.5" />
       <module name="sbwsclient001" target="1.8" />
