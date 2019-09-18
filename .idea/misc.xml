@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/sblistener/pom.xml" />
         <option value="$PROJECT_DIR$/sbminio/pom.xml" />
         <option value="$PROJECT_DIR$/sbstrategy/pom.xml" />
+        <option value="$PROJECT_DIR$/sbfactory/pom.xml" />
       </list>
     </option>
   </component>

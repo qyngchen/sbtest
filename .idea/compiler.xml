@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sbeasyrule" />
         <module name="sbemail" />
+        <module name="sbfactory" />
         <module name="sblistener" />
         <module name="sbminio" />
         <module name="sbmp" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="sbeasyrule" target="1.8" />
       <module name="sbemail" target="1.8" />
+      <module name="sbfactory" target="1.8" />
       <module name="sblistener" target="1.8" />
       <module name="sbminio" target="1.8" />
       <module name="sbmp" target="1.8" />

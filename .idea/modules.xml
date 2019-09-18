@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sbeasyrule/sbeasyrule.iml" filepath="$PROJECT_DIR$/sbeasyrule/sbeasyrule.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbemail/sbemail.iml" filepath="$PROJECT_DIR$/sbemail/sbemail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sbfactory/sbfactory.iml" filepath="$PROJECT_DIR$/sbfactory/sbfactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/sblistener/sblistener.iml" filepath="$PROJECT_DIR$/sblistener/sblistener.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbminio/sbminio.iml" filepath="$PROJECT_DIR$/sbminio/sbminio.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbmp/sbmp.iml" filepath="$PROJECT_DIR$/sbmp/sbmp.iml" />
