@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="leecode" />
         <module name="sbeasyrule" />
         <module name="sbemail" />
         <module name="sbfactory" />
@@ -21,6 +22,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="leecode" target="1.5" />
       <module name="sbeasyrule" target="1.8" />
       <module name="sbemail" target="1.8" />
       <module name="sbfactory" target="1.8" />

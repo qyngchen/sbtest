@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac80289-b0c0-44b9-9368-54b4e6d6f3e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/leecode/pom.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/factory/CommonFactory.java" afterPath="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/factory/CommonFactory.java" />
+      <change beforePath="$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/wbclient/MyWebSocketClient.java" afterPath="$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/wbclient/MyWebSocketClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/sbmp/target/" />
     <ignored path="$PROJECT_DIR$/task/target/" />
@@ -22,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/sbminio/target/" />
     <ignored path="$PROJECT_DIR$/sbstrategy/target/" />
     <ignored path="$PROJECT_DIR$/sbfactory/target/" />
+    <ignored path="$PROJECT_DIR$/leecode/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,40 +49,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FactoryForStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/factory/FactoryForStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/strategy/Strategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/factory/CommonFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,10 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sbwsserver/src/main/java/com/qyngchen/sbwsserver/controller/vo/Messgae.java" />
-        <option value="$PROJECT_DIR$/sbwsserver/src/main/java/com/qyngchen/sbwsserver/controller/vo/Message.java" />
-        <option value="$PROJECT_DIR$/sbwsserver/src/main/java/com/qyngchen/sbwsserver/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/sbemail/src/main/java/com/qyngchen/sbemail/config/EmailConfig.java" />
         <option value="$PROJECT_DIR$/sbemail/src/main/java/com/qyngchen/sbemail/service/MailServiceImpl.java" />
         <option value="$PROJECT_DIR$/sbemail/src/main/java/com/qyngchen/sbemail/service/MailService.java" />
         <option value="$PROJECT_DIR$/sbemail/src/main/java/com/qyngchen/sbemail/pojo/entity/MailBean.java" />
@@ -125,7 +88,6 @@
         <option value="$PROJECT_DIR$/sbeasyrule/src/main/java/com/qyngchen/sbeasyrule/rule/RuleTest.java" />
         <option value="$PROJECT_DIR$/sbeasyrule/src/main/java/com/qyngchen/sbeasyrule/SbeasyruleApplication.java" />
         <option value="$PROJECT_DIR$/sbemail/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/wbclient/MyWebSocketClient.java" />
         <option value="$PROJECT_DIR$/sbemail/src/main/resources/templates/mailTemplate.html" />
         <option value="$PROJECT_DIR$/sbemail/src/main/java/com/qyngchen/sbemail/service/impl/MailServiceImpl.java" />
         <option value="$PROJECT_DIR$/sbminio/src/main/java/com/qyngchen/sbminio/service/MinioServiceImpl.java" />
@@ -160,7 +122,12 @@
         <option value="$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/strategy/impl/StrategyIOT.java" />
         <option value="$PROJECT_DIR$/sbstrategy/src/test/java/com/qyngchen/sbstrategy/factory/FactoryForStrategyTest.java" />
         <option value="$PROJECT_DIR$/sbfactory/pom.xml" />
+        <option value="$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/wbclient/MyWebSocketClient.java" />
+        <option value="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/product/Car.java" />
+        <option value="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/product/impl/BMWCar.java" />
+        <option value="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/product/impl/FerrariCar.java" />
         <option value="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/factory/CommonFactory.java" />
+        <option value="$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/user.java" />
       </list>
     </option>
   </component>
@@ -195,8 +162,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="91" />
+    <option name="x" value="2146" />
+    <option name="y" value="181" />
     <option name="width" value="1287" />
     <option name="height" value="839" />
   </component>
@@ -216,9 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,55 +191,13 @@
               <item name="space" type="b2602c69:ProjectViewProjectNode" />
               <item name="space" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sbfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,32 +254,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FactoryForStrategyTest.getStrategy">
+  <component name="RunManager" selected="Application.user">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qyngchen.sbwsclient001.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.qyngchen.sbwsclient001.util.ApiDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sbwsclient001" />
-      <envs />
     </configuration>
     <configuration name="MinioServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -428,6 +331,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qyngchen.sbfactory.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.qyngchen.sbfactory.common.user" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sbfactory" />
       <envs />
     </configuration>
     <configuration name="FactoryForStrategyTest.getStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -575,18 +497,18 @@
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.SblistenerApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.SbminioApplication" />
       <item index="8" class="java.lang.String" itemvalue="Application.Sbwsclient001Application" />
-      <item index="9" class="java.lang.String" itemvalue="Application.ApiDemo" />
-      <item index="10" class="java.lang.String" itemvalue="Application.MinioServiceImpl" />
-      <item index="11" class="java.lang.String" itemvalue="Application.SchedileTest" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.FactoryForStrategyTest.getStrategy" />
+      <item index="9" class="java.lang.String" itemvalue="Application.MinioServiceImpl" />
+      <item index="10" class="java.lang.String" itemvalue="Application.SchedileTest" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.FactoryForStrategyTest.getStrategy" />
+      <item index="12" class="java.lang.String" itemvalue="Application.user" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FactoryForStrategyTest.getStrategy" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SchedileTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Sbwsclient001Application" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MinioServiceImpl" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ApiDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.user" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FactoryForStrategyTest.getStrategy" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SchedileTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Sbwsclient001Application" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MinioServiceImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +553,8 @@
       <workItem from="1568014943555" duration="1387000" />
       <workItem from="1568598676578" duration="10166000" />
       <workItem from="1568700163978" duration="1601000" />
-      <workItem from="1568795531593" duration="2477000" />
+      <workItem from="1568795531593" duration="7714000" />
+      <workItem from="1570696629607" duration="443000" />
     </task>
     <servers />
   </component>
@@ -668,11 +591,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132919000" />
+    <option name="totallyTimeSpent" value="138599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="91" width="1287" height="839" extended-state="0" />
-    <editor active="true" />
+    <frame x="2146" y="181" width="1287" height="839" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -684,17 +606,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32480535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3240469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32697946" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26140156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31231672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43108505" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3178484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43108505" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32273838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -703,7 +626,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32703003" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889876" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -798,38 +720,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar!/org/thymeleaf/TemplateSpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar!/org/thymeleaf/TemplateEngine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="363" column="0" lean-forward="false" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbeasyrule/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbeasyrule/src/main/java/com/qyngchen/sbeasyrule/rule/RuleTestTwo.java" />
     <entry file="file://$PROJECT_DIR$/sbeasyrule/HELP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -869,20 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/wbclient/MyWebSocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="93" lean-forward="false" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/Sbwsclient002Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sbemail/src/main/resources/templates/mailTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -898,13 +774,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbemail/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="943">
           <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbemail/src/main/java/com/qyngchen/sbemail/SbemailApplication.java">
@@ -957,13 +833,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbminio/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbminio/src/main/java/com/qyngchen/sbminio/config/MinioConfig.java">
@@ -1018,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sbwsclient001/src/main/java/com/qyngchen/sbwsclient001/wbclient/MyWebSocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/src/main/java/com/qyngchen/task/schedule/SchedileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1081">
@@ -1042,14 +911,13 @@
     <entry file="file://$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/config/HandlerType.java" />
     <entry file="file://$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/service/ImageService.java" />
     <entry file="file://$PROJECT_DIR$/sbstrategy/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/pojo/dto/TestDTO.java" />
@@ -1069,11 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#310#311#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,11 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#264#265#0" expanded="false" />
-            <element signature="e#292#293#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,20 +956,109 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbfactory/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sbstrategy/src/main/java/com/qyngchen/sbstrategy/factory/FactoryForStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbwsclient001/src/main/java/com/qyngchen/sbwsclient001/wbclient/MyWebSocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/Sbwsclient002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbwsclient002/src/main/java/com/qyngchen/sbwsclient002/wbclient/MyWebSocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/product/impl/FerrariCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#219#220#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/product/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/product/impl/BMWCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leecode/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/factory/CommonFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1122,14 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sbfactory/src/main/java/com/qyngchen/sbfactory/common/factory/CommonFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

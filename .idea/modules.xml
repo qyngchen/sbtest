@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/leecode/leecode.iml" filepath="$PROJECT_DIR$/leecode/leecode.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbeasyrule/sbeasyrule.iml" filepath="$PROJECT_DIR$/sbeasyrule/sbeasyrule.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbemail/sbemail.iml" filepath="$PROJECT_DIR$/sbemail/sbemail.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbfactory/sbfactory.iml" filepath="$PROJECT_DIR$/sbfactory/sbfactory.iml" />
