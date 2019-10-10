@@ -22,7 +22,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="leecode" target="1.5" />
+      <module name="leecode" target="1.7" />
       <module name="sbeasyrule" target="1.8" />
       <module name="sbemail" target="1.8" />
       <module name="sbfactory" target="1.8" />
